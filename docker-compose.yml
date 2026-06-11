@@ -1,0 +1,42 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-agrostore}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-agrostore}
+      POSTGRES_DB: ${POSTGRES_DB:-agrostore}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U agrostore -d agrostore"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: .
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgresql://agrostore:agrostore@postgres:5432/agrostore
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app/app
+      - ./static:/app/static
+      - ./uploads:/app/uploads
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')\""]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+volumes:
+  postgres_data:

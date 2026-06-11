@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" fill="#0d1a14"/>
+  <rect x="16" y="16" width="368" height="208" rx="10" stroke="#00ffaa" stroke-opacity="0.2"/>
+  <rect x="80" y="108" width="240" height="52" rx="10" fill="#152019" stroke="#00ffaa" stroke-opacity="0.45"/>
+  <circle cx="120" cy="168" r="18" fill="#111916" stroke="#00cc88" stroke-width="3"/>
+  <circle cx="280" cy="168" r="18" fill="#111916" stroke="#00cc88" stroke-width="3"/>
+  <path d="M110 92c20-16 160-16 180 0" stroke="#00ffaa" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="200" cy="88" r="6" fill="#00ffaa"/>
+  <text x="200" y="218" fill="#7a9a8a" font-family="Segoe UI,sans-serif" font-size="13" text-anchor="middle">Auto Sprayer</text>
+</svg>

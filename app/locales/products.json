@@ -1,0 +1,86 @@
+{
+  "1": {
+    "en": {
+      "name": "AgriBot X1 — Autonomous Tractor",
+      "description": "Fully autonomous electric tractor with LiDAR, RTK-GPS and AI route planning. Operates 24/7 without an operator in the cab."
+    },
+    "de": {
+      "name": "AgriBot X1 — Autonomer Traktor",
+      "description": "Vollautonomer Elektrotraktor mit LiDAR, RTK-GPS und KI-Routenplanung. Arbeitet 24/7 ohne Fahrer in der Kabine."
+    },
+    "nl": {
+      "name": "AgriBot X1 — Autonome Tractor",
+      "description": "Volledig autonome elektrische tractor met LiDAR, RTK-GPS en AI-routplanning. Werkt 24/7 zonder operator in de cabine."
+    }
+  },
+  "2": {
+    "en": {
+      "name": "HarvestAI 9000 — Robot Combine",
+      "description": "Self-propelled combine with computer vision and adaptive header. Autonomously optimizes harvest routes across the field."
+    },
+    "de": {
+      "name": "HarvestAI 9000 — Roboter-Mähdrescher",
+      "description": "Selbstfahrender Mähdrescher mit Computer Vision und adaptivem Schneidwerk. Optimiert Ernterouten autonom über das Feld."
+    },
+    "nl": {
+      "name": "HarvestAI 9000 — Robotmaaidorser",
+      "description": "Zelfrijdende maaidorser met computer vision en adaptieve maaibalk. Optimaliseert oogstroutes autonoom over het veld."
+    }
+  },
+  "3": {
+    "en": {
+      "name": "AutoTill Matrix — Soil Processing Robot",
+      "description": "Autonomous deep tillage unit with soil density mapping and precision navigation."
+    },
+    "de": {
+      "name": "AutoTill Matrix — Bodenbearbeitungsroboter",
+      "description": "Autonomes Gerät für tiefe Bodenbearbeitung mit Bodendichtekartierung und Präzisionsnavigation."
+    },
+    "nl": {
+      "name": "AutoTill Matrix — Bodembewerkingsrobot",
+      "description": "Autonome diepe grondbewerkingsunit met bodemdichtheidskaarten en precisienavigatie."
+    }
+  },
+  "4": {
+    "en": {
+      "name": "AutoSeed Navigator — Smart Seeder",
+      "description": "Autonomous seeder with moisture sensors and AI-driven seed rate adjustment for each field zone."
+    },
+    "de": {
+      "name": "AutoSeed Navigator — Intelligente Sämaschine",
+      "description": "Autonome Sämaschine mit Feuchtigkeitssensoren und KI-gestützter Saatgutdosierung für jede Feldzone."
+    },
+    "nl": {
+      "name": "AutoSeed Navigator — Slimme Zaaimachine",
+      "description": "Autonome zaaimachine met vochtsensoren en AI-gestuurde zaaidichtheid per veldzone."
+    }
+  },
+  "5": {
+    "en": {
+      "name": "CropGuard Auto — Autonomous Sprayer",
+      "description": "Robotic sprayer with weed recognition and spot application of crop protection products to target zones only."
+    },
+    "de": {
+      "name": "CropGuard Auto — Autonomes Spritzgerät",
+      "description": "Roboterspritzgerät mit Unkrauterkennung und punktgenauer Pflanzenschutzmittelapplikation nur auf Zielzonen."
+    },
+    "nl": {
+      "name": "CropGuard Auto — Autonome Spuitmachine",
+      "description": "Robotspuitmachine met onkruidherkenning en gerichte toepassing van gewasbeschermingsmiddelen op doelzones."
+    }
+  },
+  "6": {
+    "en": {
+      "name": "FarmOS Nexus — Field Control Station",
+      "description": "Autonomous fleet command center: machine coordination, yield forecasting and real-time field monitoring."
+    },
+    "de": {
+      "name": "FarmOS Nexus — Feldsteuerungsstation",
+      "description": "Kommandozentrale für autonome Flotten: Maschinenkoordination, Ertragsprognose und Echtzeit-Feldüberwachung."
+    },
+    "nl": {
+      "name": "FarmOS Nexus — Veldbeheerstation",
+      "description": "Commandocentrum voor autonome vloten: machinecoördinatie, oogstprognoses en realtime veldmonitoring."
+    }
+  }
+}

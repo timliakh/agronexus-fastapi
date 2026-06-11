@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" fill="#0d1a14"/>
+  <rect x="16" y="16" width="368" height="208" rx="10" stroke="#00ffaa" stroke-opacity="0.2"/>
+  <path d="M80 160h240M120 160V110M160 160V95M200 160V110M240 160V95M280 160V110M320 160V160" stroke="#00cc88" stroke-width="3" stroke-linecap="round"/>
+  <rect x="100" y="132" width="200" height="28" rx="6" fill="#152019" stroke="#00ffaa" stroke-opacity="0.4"/>
+  <text x="200" y="218" fill="#7a9a8a" font-family="Segoe UI,sans-serif" font-size="13" text-anchor="middle">Soil Robot</text>
+</svg>

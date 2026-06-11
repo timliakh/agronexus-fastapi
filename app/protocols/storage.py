@@ -1,0 +1,9 @@
+from typing import Protocol
+
+
+class ImageStorage(Protocol):
+    def ensure_dir(self) -> None: ...
+
+    def save(self, product_id: int, filename: str, content: bytes) -> str: ...
+
+    def remove_by_url(self, image_url: str | None) -> None: ...
